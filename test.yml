@@ -14,7 +14,7 @@ spec:
 
   # 3. Which pods are managed by this deployment?
   selector:
-    # This must match the labels we set on the pod!
+    # This must match the labels we set on the pod! test
     matchLabels:
       deploy: example
   
